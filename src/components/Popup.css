@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box
+    
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.fetchedData {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  top: 100%;
+  
+}
+
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    left: 53.75%;
+    top: 0%;
+    transform: translateX(-50%);
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 125vh;
+
+  
+}
+@keyframes popout {
+  from{transform:scale(0)}
+  80%{transform:scale(1.2)}
+  to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+  from{-webkit-transform:scale(0)}
+  80%{-webkit-transform:scale(1.2)}
+  to{-webkit-transform:scale(1)}
+}
+
+.popup-inner {
+    animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 7vh 4vh;
+    background-color: rgb(240, 240, 240);
+    z-index: 1001;
+    font-family: 'Poppins', sans-serif;
+    width: 125vh;
+    height: 60vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.popup-inner .close {
+    position: absolute;
+    top: 3vh;
+    right: 3vh;
+}
+
+
+a.close{
+  right: 250vh;
+  cursor:pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 30px;
+  background: #605F61;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;       
+}
+
+.close:before {
+  content: "×";
+  font-size: 25px;
+  
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+  @keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+  }
+  @-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
+  }
+
+ 
+
+
+.popup-inner {
+  animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 7vh 4vh;
+    background-color: rgb(240, 240, 240);
+    z-index: 1001;
+    font-family: 'Poppins', sans-serif;
+    width: 40vh;
+    height: 80vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup {
+  position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    left: 72.5%;
+    top: -7.5%;
+    transform: translateX(-50%);
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40vh;
+}
+
+}
+

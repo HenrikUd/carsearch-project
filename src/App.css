@@ -1,0 +1,696 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+
+.PopUp{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ac3c3c;
+  border-radius: 1em;
+  box-shadow: -2px 5px 5px #E71D36;
+  background-color: #FDFFFC;
+  color: #2e70a7;
+}
+
+#root > div > div.input-wrapper > div > label {
+  font-weight: bold;
+  color: rgb(56, 54, 54);
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.inputField {
+  height: 5vh;
+  width: 65vh;
+  
+  border-radius: 7.5px;
+  border-width: 1px;
+  top: -195vh; 
+  left: 50%;
+  z-index: 1000;
+  position: relative;
+  transform: translateX(-50%);
+
+} 
+
+
+
+.inputField:hover {
+  border-width: 2px;
+  
+} 
+
+
+
+.carList {  
+  list-style-type: none;
+  cursor: pointer;
+  color: black;
+  position: absolute; 
+  transform: translateX(-50%);
+  left: 48.75%;
+  top: 120%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 150px;
+  row-gap: 4em;
+ 
+ 
+  
+}
+
+.underList {
+  opacity: 1;
+}
+
+
+.factsText {
+  position: relative;
+  text-align: center;
+}
+
+
+.nameText {
+  font-size: 0px; 
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+}
+
+::placeholder {
+ color: rgb(112, 112, 112);
+}
+
+input:focus::placeholder {
+  color: rgb(170, 164, 164);
+}
+
+
+
+.background-wrap:before{
+  content: ' ';
+  display: block;
+  position: relative;
+  background-size: cover;
+  opacity: 0.5;
+  height: 300vh;
+  background-image: url(./components/backgrounds/ivan-gromov-Y3vPEuNlf7w-unsplash.jpg);
+  background-position: cover;
+  overflow: hidden;
+
+}
+  
+.background-wrap {
+  background-size: cover;
+  height: 300vh;
+  overflow: hidden;
+  
+}
+
+
+
+
+.searchBtn {
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  
+}
+
+.searchBtn svg {
+  font-size: 35px;
+}
+
+
+.textFacts {
+  font-size: 45px;
+  color: black;
+  position: fixed;
+  z-index: 2001;
+  text-justify: inter-word;
+  max-width: 500px;
+  line-height: 20px;
+  bottom: 55vh;
+}
+
+.carInfoText {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.5em;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 52.5%;
+  top: 65%;
+ 
+
+}
+
+.header {
+  position: absolute;
+  font-size: 1.75em;
+  top: 15%;
+  left: 15%;
+  font-family: 'Outfit', sans-serif;
+}
+
+.belowHeader {
+  position: absolute;
+  font-size: 1.75em;
+  top: 60%;
+  left: 15%;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+
+.scroll-to-mid {
+  position: fixed;
+  bottom: 8.5%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background:rgb(56, 54, 54);
+  color: #FFF;
+  z-index: 1;
+  
+}
+
+.scroll-to-bot {
+  position: absolute;
+  bottom: -87.5%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background:rgb(56, 54, 54);
+  color: #FFF;
+  z-index: 1;
+  
+}
+
+
+.iconDown {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: scrollMid 0.5s alternate ease infinite;
+}
+
+.imageParser {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  
+}
+
+.imageParser img {
+  position: relative;
+z-index: 10000;
+max-width: 100%;
+height: auto;
+
+}
+
+.models {
+  font-size: 25px;
+  z-index: 10000
+}
+
+.imageBMW {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 70% 60%;
+}
+
+.imageBMW img {
+  position: relative;
+max-width: 100%;
+top: 50vh;
+}
+
+.imageHonda {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 15%;
+}
+
+.imageHonda img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+.imageNissan {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 65%;
+}
+
+.imageNissan img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+.imagePeugeot {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 60%;
+}
+
+.imagePeugeot img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+.imageFord {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 100%;
+}
+
+.imageFord img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+.imageFiat {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 100%;
+}
+
+.imageFiat img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+.imageChrysler {
+  position: absolute;
+  width: 55vh;
+  height: 25vh;
+ z-index: 100000;
+  object-fit: cover;
+  max-height: 30vh;
+  top: 12.5vh;
+  left: 36vh;
+  border-radius: 10px;
+  object-position: 100% 80%;
+}
+
+.imageChrysler img {
+  position: relative;
+max-width: 100%;
+top: 50vh
+}
+
+@keyframes scrollMid{
+  from {
+    transform: translateY(2px)
+
+  }
+  to {
+    transform: translateY(-1px)
+
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  
+  .imageParser {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    
+  }
+  
+  .imageParser img {
+    position: relative;
+  z-index: 10000;
+  max-width: 100%;
+  height: auto;
+  
+  }
+  
+  .models {
+    font-size: 25px;
+    z-index: 10000
+  }
+  
+  .imageBMW {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 40% 60%;
+  }
+  
+  .imageBMW img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh;
+  }
+  
+  .imageHonda {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 60% 25%;
+  }
+  
+  .imageHonda img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+  
+  .imageNissan {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 70% 65%;
+  }
+  
+  .imageNissan img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+  
+  .imagePeugeot {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 50% 60%;
+  }
+  
+  .imagePeugeot img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+  
+  .imageFord {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 50% 50%;
+  }
+  
+  .imageFord img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+  
+  .imageFiat {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 35% 100%;
+  }
+  
+  .imageFiat img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+  
+  .imageChrysler {
+    position: absolute;
+    width: 30vh;
+    height: 25vh;
+   z-index: 100000;
+    object-fit: cover;
+    max-height: 30vh;
+    top: 10vh;
+    left: 5.25vh;
+    border-radius: 10px;
+    object-position: 20% 80%;
+  }
+  
+  .imageChrysler img {
+    position: relative;
+  max-width: 100%;
+  top: 50vh
+  }
+
+
+
+  .inputField {
+   position: relative;
+   max-width: 35vh;
+   min-width: 5vh;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 115vh;
+  } 
+  
+ 
+ 
+
+ .background-wrap:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 300vh;
+  opacity: 0.6;
+  background-image: url(./components/backgrounds/michael-shannon-iIrB37J5yfA-unsplash.jpg);
+  background-size: cover;
+}
+
+
+
+ .carList {  
+  list-style-type: none;
+  cursor: pointer;
+  color: black; 
+  top: 127.5%;
+  position: absolute;
+  left: 39%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 150px;
+  row-gap: 5em;
+  
+} 
+
+
+
+
+  .nameText {
+    position: relative;
+    font-size: 0px; 
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    
+  
+}
+
+.factsText {
+  font-size: 0.5em;
+  text-align: center;
+  right: 40%;
+  max-width: 50vh;
+  position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.AudiImg {            /*Audi logo */
+  width: 9vh;
+  height: 4vh;
+  position: absolute;
+  top: -4vh;
+  left: -2vh;
+  
+
+}
+
+.HondaImg {             /*Honda logo */
+ width: 6.5vh;
+ height: 6.5vh;
+ position: absolute;
+ top: -4vh;
+ left: 0vh;
+ 
+
+}
+
+
+
+
+
+.textFacts {
+  font-size: 1.25em;
+  top: 10vh;
+}
+
+.header {
+  position: absolute;
+  font-size: 0.8em;
+  top: 12.5%;
+  left: 11.5%;
+  font-family: 'Outfit', sans-serif;
+  width: 65%;
+}
+
+.belowHeader {
+  position: absolute;
+  font-size: 0.8em;
+  top: 60%;
+  left: 11.5%;
+  font-family: 'Outfit', sans-serif;
+  text-align: left;
+  
+  
+}
+
+
+.scroll-to-bot {
+  position: absolute;
+  bottom: -105%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background:rgb(56, 54, 54);
+  color: #FFF;
+  z-index: 1;
+}
+
+.carInfoText {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.5em;
+  top: 50%;
+
+ 
+
+}
+@keyframes scrollMid{
+  from {
+    transform: translateY(2px)
+
+  }
+  to {
+    transform: translateY(-1px)
+
+  }
+
+
+}
+
+
+}
+

@@ -1,0 +1,908 @@
+.relHeader {
+    position: absolute;
+    font-size: 1.75em;
+    bottom: -115vh;
+    left: 15%;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .relUnderHeader {
+    position: absolute;
+    font-size: 1em;
+    bottom: -120vh;
+    left: 15%;
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+  .listBox1 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   
+  }
+
+  .listBox2 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   
+  }
+
+  .listBox3 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox4 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   
+  }
+  
+  .listBox5 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox6 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox7 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox8 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox9 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+
+  .listBox10 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox11 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox12 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox13 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox14 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox15 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .listBox16 {
+   width: 90vh;
+   height: 4vh;
+   color: white;
+   background-color: rgb(41, 41, 41);
+   border-radius: 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+
+  .car {
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+   font-size: 1.5em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+  
+  }
+  
+  .numBox1 {
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+  }
+
+  .numBox2 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox3 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox4 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox5 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox6 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox7 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox8 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox9 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox10 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox11 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox12 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox13 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox14 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox15 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .numBox16 {
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1.25em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+
+  .numClass {
+      color: black;
+      font-size: 1.1em;
+      font-family: 'Outfit', sans-serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+  }
+
+  .gridContainer {
+      display: grid;
+      column-gap: 50px;
+      bottom: -185vh;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .relHeader {
+      position: absolute;
+      font-size: 0.8em;
+      bottom: -125vh;
+      left: 15%;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .relUnderHeader {
+      position: absolute;
+      font-size: 0.5em;
+      bottom: -127.5vh;
+      left: 15%;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .numClass {
+      color: black;
+      font-size: 1.1em;
+      font-family: 'Outfit', sans-serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+  }
+
+  .gridContainer {
+      display: grid;
+      column-gap: 50px;
+      bottom: -195vh;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      
+      
+      
+  }
+
+   .car {
+   font-weight: bold;
+   font-family: 'Outfit', sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .listBox1 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    
+   }
+ 
+   .listBox2 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    
+   }
+ 
+   .listBox3 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox4 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    
+   }
+   
+   .listBox5 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox6 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox7 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox8 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox9 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+ 
+   .listBox10 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox11 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox12 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox13 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox14 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox15 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+ 
+   .listBox16 {
+    width: 40vh;
+    height: 4vh;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+   }
+
+   .numBox1 {
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+  }
+
+  .numBox2 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox3 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox4 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox5 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox6 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox7 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox8 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox9 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox10 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox11 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox12 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox13 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox14 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  .numBox15 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .numBox16 {
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    background-color: white;
+    left: 0%;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+  }

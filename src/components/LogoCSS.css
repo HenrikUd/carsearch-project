@@ -1,0 +1,468 @@
+
+
+.HondaImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+   
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    
+  
+  }
+
+  
+  .AudiImg {            /*Audi logo */
+    width: 9.5vh;
+    height: 8.5vh;
+   
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    object-fit: contain;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+ 
+ }
+
+ .VolvoImg {             /*Volvo logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  }
+
+  .VWImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 7.8vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .BMWImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .FiatImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .ChryslerImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    max-height: 15vh;
+    object-fit: contain;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+   
+  
+  }
+
+  .PeugeotImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+    max-height: 15vh;
+    object-fit: contain;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    
+  }
+
+  .SkodaImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    object-fit: fill;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    
+  
+  }
+
+  .FordImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .OpelImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  }
+
+  .MercedesImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .NissanImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  
+  }
+
+  .SubaruImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  }
+
+  .ToyotaImg {             /*Honda logo */
+    width: 9.5vh;
+    height: 8.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    
+  
+  }
+
+  .RenaultImg {             /*Honda logo */
+   width: 9.5vh;
+    height: 8.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .HondaImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    
+    .AudiImg {            /*Audi logo */
+      width: 7.5vh;
+      height: 6.5vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+      position: absolute;
+      max-height: 15vh;
+      filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      object-fit: contain;
+      top: -4.5vh;
+      left: 0vh;
+      
+   }
+  
+   .VolvoImg {             /*Volvo logo */
+    width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .VWImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 5.8vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .BMWImg {             /*Honda logo */
+      width: 7.5vh;
+      height: 6.5vh;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+      position: absolute;
+      max-height: 15vh;
+      filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+      object-fit: contain;
+      top: -4.5vh;
+    
+    
+    }
+  
+    .FiatImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .ChryslerImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .PeugeotImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .SkodaImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .FordImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .OpelImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+  
+    }
+  
+    .MercedesImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .NissanImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .SubaruImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .ToyotaImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  
+    .RenaultImg {             /*Honda logo */
+      width: 7.5vh;
+    height: 6.5vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    max-height: 15vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    object-fit: contain;
+    top: -4.5vh;
+    
+    
+    }
+  }  
